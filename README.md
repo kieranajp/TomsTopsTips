@@ -8,12 +8,12 @@ Note I did this in like 20 minutes, I'm aware the code is crap.
 *	"Share this" and permalinks
 *	Who knows, maybe some text will turn green or something again
 
-#Patch Notes
-##Version 1.2 (Current Version)
+##Patch Notes
+###Version 1.2 (Current Version)
 *	Tom didn’t like the green
 
-##Version 1.1
+###Version 1.1
 *	Some text is now GREEN!
 
-##Version 1.0
+###Version 1.0
 *	Initial release
