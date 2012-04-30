@@ -5,16 +5,17 @@
   <title>Lunchbox Generator</title>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
   <script>
-    var tweets = new Array();
-    var toms = new Array();
-    var top = new Array();
-    var tips = new Array();
+    var tweets = []
+      , toms = []
+      , top = []
+      , tips = []
+      ;
     
     toms[0] = "Tom";
     toms[1] = "Toms";
     toms[2] = "Tips";
     toms[3] = "Tip";
-    toms[4] = "Tits"
+    toms[4] = "Tits";
     
     top[0] = "Top";
     top[1] = "Tops";
@@ -39,7 +40,7 @@
         var url = theTweet.substring(theTweet.indexOf("http:"), theTweet.indexOf("http:") + 20);
       }*/
 
-      console.log(tweets);
+      // console.log(tweets);
       
       document.write("<h1 style='font-family: sans-serif; font-size: 72px; text-align: center; margin-top: 150px;'>" + toms[randomtoms] + " " + top[randomtop] + " " + tips[randomtips] + "</h1>");
       
@@ -57,7 +58,7 @@
     function randomTweet(data) {
       for (i = 0; i < data.length; i++) {
         tweets[i] = data[i].text;
-        console.log(data[i].entities.urls);
+        // console.log(data[i].entities.urls);
       }
       randomise();
     }
