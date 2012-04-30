@@ -1,2 +1,2 @@
 <?php
-	echo file_get_contents("http://search.twitter.com/search.json?q=from:TomsTopsTips");
+	echo file_get_contents("https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&screen_name=tomstopstips");
