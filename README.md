@@ -9,6 +9,10 @@ Note I did this in like 20 minutes, I'm aware the code is crap.
 *	Who knows, maybe some text will turn green or something again
 
 ##Patch Notes
+###Version 1.3 (Current Version)
+*	Fixed: Now pulls all tweets instead of just past 30 days
+*	New reload button!
+
 ###Version 1.2 (Current Version)
 *	Tom didn’t like the green
 
